@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <center><img src="tsrtc.jpeg" width="100"></center>
+    <center>
+        <h1>Telangana State Board Corporation</h1>
+    </center>
+    <fieldset>
+        <legend>Application Details</legend>
+        <label for="name">Name :</label>
+        <input type="text" name="name" id="name" required><br><br>
+        <label for="father name">Father Name :</label>
+        <input type="text" name="fathername" id="fathername" required><br><br>
+        <labet for="date of birth">Date of Birth :</labet>
+        <input type="text" name="date of birth" id="date of birth" required placeholder="dd/mm/yy"><br><br>
+        <label for="gender">Gender</label>
+        <input type="radio" name="gender" id="gender" value="female">
+        <label for="gender">Female</label>
+        <input type="radio" name="gender" id="female" value="male" required>
+        <label for="gender"> Male</label><br><br>
+        <label for="aadhar">Aadhar Number :</label>
+        <input type="number" name="aadhar num" id="aadhar" required><br><br>
+        <label for="Whatsapp">Whatsapp Number :</label>
+        <input type="number" name="whatsapp num" id="Whatsapp" required><br><br>
+        <label for="email">Email id :</label>
+        <input type="email" name="email" id="email" required><br><br>
+        <label for="Photo">Photo :</label>
+        <input type="file" name="whatsapp num" id="Photo" accept="images" required>
+    </fieldset> 
+    <fieldset>
+        <legend>Residential Address Detail</legend>
+        <label for="Address">Applicant's Address :</label>
+        <textarea name="Address" id="Address" rows="4" cols="50" maxlength="50" required></textarea><br><br>
+        <label for="district" >District :</label>
+        <select id="district" name="district" required>
+            <option value="">select</option>
+            <option value="Hyderabad">Hyderabad</option>
+        </select><br><br>
+        <label for="mandal">Mandal:</label>
+        <select id="mandal" name="mandal" required>
+            <option value="">select</option>
+            <option value="Hyderabad">Hyderabad</option>
+        </select><br><br>
+        <label for="village">village:</label>
+        <select id="village" name="village" required>
+        <option value="">select</option>
+        <option value="hydrabad">Hyderabad</option></select><br><br>
+        <label for="pincode">Pincode</label>
+        <input type="num" id="pincode" name="pincode" required>
+    </fieldset>
+    <fieldset><legend>Pass Type Details</legend>
+        <label for="city">City:</label>
+        <select id="city" name="city" required>
+            <option value="">select</option>
+            <option value="Hyderabad">Hyderabad</option>
+        </select><br><br>
+        <label for="passtype">Pass type</label>
+        <select id="passtype" name="pass type" required>
+        <option value="">select</option>
+        <option value="monthly">monthly</option>
+        <option value="yearly">yearly</option></select>
+    </fieldset>
+    <fieldset>
+        <legend>Mode of Payment & Pass Collection</legend>
+        <label for="Payment Mode">Payment Mode</label>
+        <select id="Payment Mode" name="Payment Mode" required>
+            <option value="">Payment Mode</option>
+            <option value="online">online</option>
+            <option value="cash">cash</option>
+        </select><br><br>
+        <label for="Pass Delivery Mode">Pass Delivery Mode</label>
+        <select id="Pass Delivery Mode" name="Delivery Mode">
+            <option value="">Pass Delivery Mode</option>
+            <option value="pick-up">pick-up</option>
+            <option value="Home delivary">Home delivary</option>
+        </select><br><br>
+        <label for="Center at which you want to Collect Pass">Center at which you want to Collect Pass</label>
+        <select id="Center at which you want to Collect Pass" name="Collect Pass mode" required>
+            <option value="">select</option>
+            <option value="counter 1">counter 1</option>
+            <option value="counter 2">counter 2</option>
+        </select>
+    </fieldset>
+    <fieldset>
+        <legend>Caption</legend>
+        <label for="caption">captio</label>
+        <input type="text" id="caption" name="caption" required pattern="H3u7k"><br><br>
+        Caption =H3u7k<br><br><center>
+        <input type="submit" required></center>
+    </fieldset>
+</body>
+
+</html>
